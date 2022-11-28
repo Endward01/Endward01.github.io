@@ -116,7 +116,7 @@ const Carusel = () => {
                 Preview
               </a>
               <a
-                href="https://github.com/Endward01/Sudoku-Solver-WithAPI"
+                href="https://github.com/Endward01/Sudoku-Solver"
                 className="  text-white font-medium px-8 py-3 rounded-md transition-all duration-[50ms] md:duration-500 bg-gradient-to-r from-tertiary to-[#7e57c2] bg-size-200 bg-pos-0 active:bg-pos-100 md:hover:bg-pos-100"
                 target="_blank"
                 rel="noreferrer"

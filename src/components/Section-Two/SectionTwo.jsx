@@ -1,4 +1,4 @@
-export const SectionTwo = () => {
+const SectionTwo = () => {
   return (
     <section className="container mx-auto my-4 px-4 py-12 space-y-4">
       <div>
@@ -56,3 +56,6 @@ export const SectionTwo = () => {
     </section>
   );
 };
+
+export default SectionTwo
+

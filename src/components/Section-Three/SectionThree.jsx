@@ -1,5 +1,6 @@
 import Carusel from "./Carusel";
-export const SectionThree = () => {
+
+const SectionThree = () => {
   return (
     <section className="container mx-auto px-4 py-12 space-y-14">
       <div>
@@ -14,3 +15,6 @@ export const SectionThree = () => {
     </section>
   );
 };
+
+export default SectionThree
+

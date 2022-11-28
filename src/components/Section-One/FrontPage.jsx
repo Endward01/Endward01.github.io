@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import photo from "../../img/my_photo.jpg"
+import photo from "../../img/my_photo_lower.jpg"
 
-export const FrontPage = () => {
+const FrontPage = () => {
   return (
     <div className="text-center p-10">
       <h2 className="text-5xl py-2 text-[#7e57c2] font-bold">
@@ -40,3 +40,5 @@ export const FrontPage = () => {
     </div>
   );
 };
+
+export default FrontPage

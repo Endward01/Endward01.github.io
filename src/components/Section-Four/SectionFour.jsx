@@ -1,7 +1,7 @@
 import ContactForm from "./ContactForm";
 import Footer from "./Footer";
 
-export const SectionFour = () => {
+const SectionFour = () => {
   return (
     <section className="container mx-auto my-4 px-4 pt-12 space-y-14">
       <div>
@@ -17,3 +17,6 @@ export const SectionFour = () => {
     </section>
   );
 };
+
+export default SectionFour
+
