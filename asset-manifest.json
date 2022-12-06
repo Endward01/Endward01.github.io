@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Endward01.github.io/static/css/main.800c6266.css",
-    "main.js": "/Endward01.github.io/static/js/main.c98443df.js",
+    "main.js": "/Endward01.github.io/static/js/main.a9df2e35.js",
     "static/js/787.d38797f4.chunk.js": "/Endward01.github.io/static/js/787.d38797f4.chunk.js",
     "static/media/resume.pdf": "/Endward01.github.io/static/media/resume.9c8dbe4174a56ece3386.pdf",
     "static/media/my_photo_lower.jpg": "/Endward01.github.io/static/media/my_photo_lower.a258386bd019ad93975d.jpg",
@@ -10,11 +10,11 @@
     "static/media/3.png": "/Endward01.github.io/static/media/3.59d50abb0d414538b76d.png",
     "index.html": "/Endward01.github.io/index.html",
     "main.800c6266.css.map": "/Endward01.github.io/static/css/main.800c6266.css.map",
-    "main.c98443df.js.map": "/Endward01.github.io/static/js/main.c98443df.js.map",
+    "main.a9df2e35.js.map": "/Endward01.github.io/static/js/main.a9df2e35.js.map",
     "787.d38797f4.chunk.js.map": "/Endward01.github.io/static/js/787.d38797f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.800c6266.css",
-    "static/js/main.c98443df.js"
+    "static/js/main.a9df2e35.js"
   ]
 }
