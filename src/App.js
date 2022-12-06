@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import "./App.css";
 import Loader from "./components/Loader/Loader";
 import SectionFour from "./components/Section-Four/SectionFour";
@@ -7,7 +7,6 @@ import SectionThree from "./components/Section-Three/SectionThree";
 import SectionTwo from "./components/Section-Two/SectionTwo";
 
 function App() {
-  const [isLoading, setLoading] = useState(true);
   const fakeRequest = () => {
     return new Promise((resolve) => setTimeout(() => resolve(), 2250));
   };
@@ -20,7 +19,6 @@ function App() {
           .querySelector(".main")
           .classList.remove("overflow-hidden", "h-screen");
         el.remove();
-        setLoading(!isLoading);
       }
     });
   }, []);

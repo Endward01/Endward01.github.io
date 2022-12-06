@@ -30,7 +30,7 @@ const FrontPage = () => {
           <FaLinkedin />
         </a>
       </div>
-      <div className="relative  w-80 h-80 mt-20 mx-auto">
+      <div className="relative  md:w-80 md:h-80 mt-20 mx-auto">
         <img
           src={photo}
           className="rounded-full w-full h-full"

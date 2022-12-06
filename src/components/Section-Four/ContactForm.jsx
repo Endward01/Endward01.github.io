@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
+
+  
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -60,7 +62,7 @@ const ContactForm = () => {
       <input
         type="submit"
         value="Send Message!"
-        className="text-white px-8 py-6 rounded-md transition-all duration-[50ms] md:duration-500 bg-gradient-to-r from-secondary via-primary to-[#7e57c2] bg-size-200 bg-pos-0 active:bg-pos-100 md:hover:bg-pos-100 md:col-start-2 mt-10 cursor-pointer"
+        className="text-white px-8 py-6 rounded-md transition-all duration-[50ms] md:duration-500 bg-[linear-gradient(90deg,#1d1d1d,#26222a,#2e2737,#372c45,#3f3254,#483762,#513c71,#5a4181,#634791,#6c4ca1,#7552b1,#7e57c2)] bg-size-200 bg-pos-0 active:bg-pos-100 md:hover:bg-pos-100 md:col-start-2 mt-10 cursor-pointer"
       ></input>
     </form>
   );
