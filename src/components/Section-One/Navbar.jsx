@@ -7,9 +7,7 @@ const Navbar = () => {
 
       <a
         href={resume}
-        className="  text-white font-medium px-8 py-3 rounded-md transition-all duration-[50ms]
-         md:duration-500 bg-gradient-to-r from-secondary to-[#7e57c2] bg-size-200 bg-pos-0 active:bg-pos-100 md:hover:bg-pos-100
-        "
+        className="ease-in-out duration-100 btn font-bold px-8 py-3 rounded"
         target="_blank"
         rel="noreferrer"
       >

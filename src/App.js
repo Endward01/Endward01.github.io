@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-      <main className="main overflow-hidden h-screen bg-secondary text-white space-y-20">
+      <main className="main overflow-hidden h-screen bg-[#EAE6DA] text-[#19282F]">
         <Loader />
         <SectionOne />
         <SectionTwo />

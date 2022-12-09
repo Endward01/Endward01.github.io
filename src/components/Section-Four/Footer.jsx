@@ -1,6 +1,6 @@
 const Footer = () => {
     return(
-        <footer className="pt-20 pb-3 md:mt-24 flex justify-center ">
+        <footer className="pt-20 pb-3 md:mt-24 flex justify-center translate-y-[4.5rem]">
         <p className=" text-sm py-2 text-gray-500">
           Made by Daniel Pretki © 2022
         </p>
