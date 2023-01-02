@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Endward01.github.io/static/css/main.015f7be0.css",
-    "main.js": "/Endward01.github.io/static/js/main.0b0e2b71.js",
+    "main.css": "/Endward01.github.io/static/css/main.4c1e5c83.css",
+    "main.js": "/Endward01.github.io/static/js/main.0ae6a3fe.js",
     "static/js/787.d38797f4.chunk.js": "/Endward01.github.io/static/js/787.d38797f4.chunk.js",
     "static/media/my_photo_nobg1.png": "/Endward01.github.io/static/media/my_photo_nobg1.fbde2c54779fd4f91c45.png",
     "static/media/bg_foto.jpg": "/Endward01.github.io/static/media/bg_foto.7f068d1299da4512a987.jpg",
@@ -11,12 +11,12 @@
     "static/media/4.png": "/Endward01.github.io/static/media/4.e243e115a1f5585cdf68.png",
     "static/media/3.png": "/Endward01.github.io/static/media/3.59d50abb0d414538b76d.png",
     "index.html": "/Endward01.github.io/index.html",
-    "main.015f7be0.css.map": "/Endward01.github.io/static/css/main.015f7be0.css.map",
-    "main.0b0e2b71.js.map": "/Endward01.github.io/static/js/main.0b0e2b71.js.map",
+    "main.4c1e5c83.css.map": "/Endward01.github.io/static/css/main.4c1e5c83.css.map",
+    "main.0ae6a3fe.js.map": "/Endward01.github.io/static/js/main.0ae6a3fe.js.map",
     "787.d38797f4.chunk.js.map": "/Endward01.github.io/static/js/787.d38797f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.015f7be0.css",
-    "static/js/main.0b0e2b71.js"
+    "static/css/main.4c1e5c83.css",
+    "static/js/main.0ae6a3fe.js"
   ]
 }
