@@ -1,12 +1,11 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import photo from "../../img/my_photo_lower.jpg"
+import photo from "../../img/my_photo_nobg.png";
+import bg from "../../img/bg_foto.jpg";
 
 const FrontPage = () => {
   return (
     <div className="text-center p-10">
-      <h2 className="text-5xl py-2 font-bold text-[#19282F]">
-        Daniel Pretki
-      </h2>
+      <h2 className="text-5xl py-2 font-bold text-[#19282F]">Daniel Pretki</h2>
       <h3 className="text-2xl py-2">Front-End Developer</h3>
       <p className="text-md  py-5 leading-8 text-gray-600 mx-auto md:w-1/2">
         I'm Front-End Developer located in Poznan, Poland. I have passion for
@@ -30,15 +29,22 @@ const FrontPage = () => {
           <FaLinkedin />
         </a>
       </div>
-      <div className="relative  md:w-80 md:h-80 mt-20 mx-auto">
-        <img
-          src={photo}
-          className="rounded-full w-full h-full shadow-[#A2B5BB] shadow-lg"
-          alt="my_photo"
-        />
+      <div className="mx-auto scale-[.9] relative w-72 md:w-96">
+        <div className=" grid items-end rounded-[0_0_100vw_100vw] overflow-hidden">
+          <img
+            src={photo}
+            className="relative z-[2] max-w-full block"
+            alt="my_photo"
+          />
+          <img
+            src={bg}
+            className=" absolute max-w-full block top-auto inset-x-0 bottom-0 aspect-square rounded-full bg-cover w-full m-auto"
+            alt="photo_background"
+          />
+        </div>
       </div>
     </div>
   );
 };
 
-export default FrontPage
+export default FrontPage;

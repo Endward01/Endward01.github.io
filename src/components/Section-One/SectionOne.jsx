@@ -3,7 +3,7 @@ import  Navbar  from "./Navbar";
 
 const SectionOne = () => {
   return (
-    <section className="h-screen container mx-auto px-4 pb-2">
+    <section className="min-h-screen md:h-screen container mx-auto px-4 pb-2">
       <Navbar />
       <FrontPage />
     </section>
