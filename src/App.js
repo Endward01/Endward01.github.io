@@ -28,8 +28,8 @@ function App() {
       <main className="main overflow-hidden h-screen bg-[#EAE6DA] text-[#19282F]">
         <Loader />
         <SectionOne />
-        <SectionTwo />
         <SectionThree />
+        <SectionTwo />
         <SectionFour />
       </main>
     </>

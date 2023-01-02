@@ -2,7 +2,7 @@ import Carusel from "./Carusel";
 
 const SectionThree = () => {
   return (
-    <section className="section container mx-auto px-4 space-y-14">
+    <section className="section sectionBG bg-[#F5EDDC] container mx-auto px-4 space-y-14">
       <div>
         <h3 className="text-5xl pb-4 font-bold"> Portfolio</h3>
         <p className="text-md text-justify md:text-left py-2 leading-8 text-gray-600 md:w-1/2">

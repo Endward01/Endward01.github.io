@@ -1,4 +1,4 @@
-import resume from "../../resume/resume.pdf";
+import resume from "../../docs/resume.pdf";
 
 const Navbar = () => {
   return (
