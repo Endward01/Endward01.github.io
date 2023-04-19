@@ -9,7 +9,7 @@ const FrontPage = () => {
       <h3 className="text-2xl py-2">Front-End Developer</h3>
       <p className="text-md  py-5 leading-8 text-gray-600 mx-auto md:w-1/2">
         I'm Front-End Developer located in Poznan, Poland. I have passion for
-        progaming, simplistic and minimalistic UI design and visual effects.
+        programming, simplistic and minimalistic UI design and visual effects.
       </p>
       <div className="text-5xl flex justify-center gap-16 py-3 ">
         <a

@@ -11,9 +11,9 @@ const SectionTwo = () => {
       <div>
         <h3 className="text-5xl pb-4 font-bold">About Me</h3>
         <p className="text-md text-justify lg:text-left py-2 leading-8 text-gray-600 lg:w-1/2">
-          Organaized preson, problem solver, great team player with attention to
-          detail. Fan of Video Games, light/science fiction novels, Comics,
-          sci-fi moves.
+          Organized person, problem solver, great team player with attention to
+          detail. Fan of video games, light/science fiction novels, comics,
+          science fiction films.
         </p>
         <p className="text-md text-justify lg:text-left py-2 leading-8 text-gray-600">
           I'm interested in Front-End and Back-End spectrum.
@@ -105,72 +105,43 @@ const SectionTwo = () => {
           <h3 className="text-3xl font-bold col-span-2 text-center mb-4">
             Skills
           </h3>
+          <Skill name={"HTML 5.x"} color={"#c5431f"} description={""} />
           <Skill
-            name={"HTML"}
-            percent={"80%"}
-            color={"#c5431f"}
-            level={"Extensive"}
-          />
-          <Skill
-            name={"CSS"}
-            percent={"75%"}
+            name={"CSS3"}
             color={"#2244ce"}
-            level={"Extensive"}
+            description={
+              "Experience in creating websites using CSS with BEM and RWD. Ability to use Bootstrap, Tailwind CSS and SCSS."
+            }
           />
           <Skill
             name={"JavaScript"}
-            percent={"65%"}
             color={"#d8c519"}
-            level={"Working"}
+            description={
+              "Knowledge of the use of Javascript in front-end and back-end website development."
+            }
           />
           <Skill
             name={"TypeScript"}
-            percent={"20%"}
             color={"#1677b8"}
-            level={"Basic"}
+            description={"Basic skills of using TypeScript in development."}
+          />
+          <Skill
+            name={"React 18.x"}
+            color={"#79d3f1"}
+            description={
+              "Skills in creating websites in React using functional and class components, props, states, routing(SPA) and hooks."
+            }
           />
           <Skill
             name={"jQuery"}
-            percent={"30%"}
             color={"#131927"}
-            level={"Working"}
+            description={
+              "Skills in using this library for practical scripting for websites."
+            }
           />
-          <Skill
-            name={"ReactJS"}
-            percent={"65%"}
-            color={"#79d3f1"}
-            level={"Working"}
-          />
-          <Skill
-            name={"Bootstrap"}
-            percent={"45%"}
-            color={"#7810f6"}
-            level={"Working"}
-          />
-          <Skill
-            name={"TailwindCSS"}
-            percent={"60%"}
-            color={"#38bdf8"}
-            level={"Extensive"}
-          />
-          <Skill
-            name={"SCSS"}
-            percent={"25%"}
-            color={"#cf649a"}
-            level={"Basic"}
-          />
-          <Skill
-            name={"Java"}
-            percent={"15%"}
-            color={"#f5961b"}
-            level={"Basic"}
-          />
-          <Skill
-            name={"Swing"}
-            percent={"10%"}
-            color={"#f80102"}
-            level={"Basic"}
-          />
+          <div className=" col-span-2 ml-2 h-[2px] w-full bg-gray-500/40 mt-3 rounded-xl flex items-center"></div>
+          <Skill name={"Java"} color={"#f5961b"} description={""} />
+          <Skill name={"Swing"} color={"#f80102"} description={""} />
         </div>
       </div>
     </section>

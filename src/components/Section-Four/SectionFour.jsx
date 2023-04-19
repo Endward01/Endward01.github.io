@@ -8,7 +8,7 @@ const SectionFour = () => {
         <h3 className="text-5xl pb-4 font-bold"> Contact</h3>
         <p className="text-md text-justify md:text-left py-2 leading-8 text-gray-600 md:w-1/2">
           I'm interested in every opportunity which can help me improve myself.
-          However, if you have other question or request, don't hesitate to sand
+          However, if you have other question or request, don't hesitate to send
           me a message.
         </p>
       </div>
