@@ -118,7 +118,6 @@ const SectionTwo = () => {
               <div className="flex text-2xl justify-center">
                 <p className=" text-[#c5431f]">HTML 5.x</p>
                 <p className="text-[#131927]">/</p>
-                <p> </p>
                 <p className=" text-[#2244ce]">CSS3</p>
               </div>
               <p className="text-sm text-gray-600 md:pl-6 pt-2">
