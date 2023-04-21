@@ -105,19 +105,34 @@ const SectionTwo = () => {
           <h3 className="text-3xl font-bold col-span-2 text-center mb-4">
             Skills
           </h3>
-          <Skill name={"HTML 5.x"} color={"#c5431f"} description={""} />
+          {/* <Skill name={"HTML 5.x"} color={"#c5431f"} description={""} />
           <Skill
             name={"CSS3"}
             color={"#2244ce"}
             description={
               "Experience in creating websites using CSS with BEM and RWD. Ability to use Bootstrap, Tailwind CSS and SCSS."
             }
-          />
+          /> */}
+          <div className="col-span-2 pb-2 w-full text-center">
+            <div className="flex flex-col ">
+              <div className="flex text-2xl justify-center">
+                <p className=" text-[#c5431f]">HTML 5.x</p>
+                <p className="text-[#131927]">/</p>
+                <p> </p>
+                <p className=" text-[#2244ce]">CSS3</p>
+              </div>
+              <p className="text-sm text-gray-600 md:pl-6 pt-2">
+                Knowledge of the use of HTML and CSS in creating responsive
+                websites using BEM and RWD. Also the use of tools such as
+                Bootstrap, Tailwind CSS, SASS.
+              </p>
+            </div>
+          </div>
           <Skill
             name={"JavaScript"}
             color={"#d8c519"}
             description={
-              "Knowledge of the use of Javascript in front-end and back-end website development."
+              "Knowledge of using javascript in front-end and back-end website development, and also knowledge of NodeJS framework and Rest API"
             }
           />
           <Skill
@@ -140,8 +155,22 @@ const SectionTwo = () => {
             }
           />
           <div className=" col-span-2 ml-2 h-[2px] w-full bg-gray-500/40 mt-3 rounded-xl flex items-center"></div>
-          <Skill name={"Java"} color={"#f5961b"} description={""} />
-          <Skill name={"Swing"} color={"#f80102"} description={""} />
+          {/* <Skill
+            className="col-span-2"
+            name={"Java"}
+            color={"#f5961b"}
+            description={
+              " Basic knowledge of programming in Java using the Swing Toolkit."
+            }
+          /> */}
+          <div className="col-span-2 pb-2 w-full text-center">
+            <div className="flex flex-col ">
+              <p className="text-2xl text-[#f5961b]">Java</p>
+              <p className="text-sm text-gray-600 md:pl-6 pt-2">
+                Basic knowledge of programming in Java using the Swing Toolkit.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

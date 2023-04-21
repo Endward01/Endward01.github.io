@@ -1,6 +1,6 @@
 import React from "react";
 
-function Skill({ name, description,color }) {
+function Skill({ name, description, color }) {
   const style = {
     color: color,
   };
