@@ -22,7 +22,7 @@ const SectionThree = () => {
       </div>
       <Carusel />
       <h4 className=" text-center text-2xl pb-4 font-bold">Below is a list of simple Landing Pages created using HTML and CSS</h4>
-      <div className="h-1/3 md:h-1/5 mx-auto md:w-[80%] rounded-xl space-y-6 py-4 px-8 bg-[#FFF7E9] flex flex-col justify-center">
+      <div className="h-1/3 md:h-1/5 mx-auto rounded-xl space-y-6 py-4 px-8 bg-[#FFF7E9] flex flex-col justify-center">
         <div className=" md:flex md:justify-between md:items-center">
           <div className="text-center md:text-left h-1/2 md:h-[unset]">
             <h3 className="text-2xl font-bold">Landing Page 1</h3>

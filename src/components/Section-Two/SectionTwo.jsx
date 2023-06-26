@@ -10,7 +10,7 @@ const SectionTwo = () => {
     <section className="section  container mx-auto px-4  space-y-4 ">
       <div>
         <h3 className="text-5xl pb-4 font-bold">About Me</h3>
-        <p className="text-md text-justify lg:text-left py-2 leading-8 text-gray-600 lg:w-1/2">
+        <p className="text-md text-justify lg:text-left py-2 leading-8 text-gray-600 xl:w-1/2">
           Organized person, problem solver, great team player with attention to
           detail. Fan of video games, light/science fiction novels, comics,
           science fiction films.
@@ -19,14 +19,14 @@ const SectionTwo = () => {
           I'm interested in Front-End and Back-End spectrum.
         </p>
       </div>
-      <div className=" md:w-[80%] mx-auto ">
+      <div className=" md:w-[100%] mx-auto ">
         <div className=" text-center lg:text-left py-10 flex flex-col justify-center h-full space-y-12 lg:row-span-2 lg:col-span-2">
           <div className="space-y-3">
             <h3 className="text-3xl font-bold text-center mb-4">
               CERTIFICATES
             </h3>
-            <div className=" space-y-6 md:space-y-0 flex flex-wrap justify-center md:justify-start md:gap-12">
-              <div className="w-full md:w-auto space-y-3 bg-[#fff7e9] p-4  rounded-lg ">
+            <div className=" space-y-6 md:space-y-0 flex flex-wrap justify-center xl:justify-start md:gap-12">
+              <div className="w-full xl:w-auto space-y-3 bg-[#fff7e9] p-4  rounded-lg ">
                 <h4 className="text-2xl font-bold text-gray-600 relative flex flex-col items-center md:flex-row justify-center md:justify-between">
                   JavaScript & React - Future Collars{" "}
                   <a
@@ -55,7 +55,7 @@ const SectionTwo = () => {
                   </li>
                 </ol>
               </div>
-              <div className="w-full md:w-auto space-y-3 bg-[#fff7e9] p-4 rounded-lg ">
+              <div className="w-full xl:w-auto space-y-3 bg-[#fff7e9] p-4 rounded-lg ">
                 <h4 className="text-2xl font-bold text-gray-600 relative flex flex-col items-center md:flex-row justify-center md:justify-between ">
                   HTML/CSS - Future Collars{" "}
                   <a
@@ -76,7 +76,7 @@ const SectionTwo = () => {
                   <li>- BEM</li>
                 </ol>
               </div>
-              <div className="w-full md:w-auto space-y-3 bg-[#fff7e9] p-4 rounded-lg ">
+              <div className="w-full xl:w-auto space-y-3 bg-[#fff7e9] p-4 rounded-lg ">
                 <h4 className="text-2xl font-bold text-gray-600 relative flex flex-col items-center md:flex-row justify-center md:justify-between">
                   Java od Podstaw do Eksperta - Udemy{" "}
                   <a

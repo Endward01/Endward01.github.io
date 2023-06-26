@@ -12,9 +12,8 @@ const Carusel = () => {
       options={{
         rewind: true,
         gap: "3rem",
-        // direction: "ttb",
-        height: "720px",
-        width: "80%",
+        height: "90vh",
+        width: "100%",
         breakpoints: {
           976: {
             height: "80vh",
